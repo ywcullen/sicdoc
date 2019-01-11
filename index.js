@@ -8,7 +8,7 @@ const shell = require("shelljs");
 const init = () => {
   console.log(
     chalk.green(
-      figlet.textSync("sicdoc 2 with new feature 2.2", {
+      figlet.textSync("sicdocs", {
         font: "Ghost",
         horizontalLayout: "default",
         verticalLayout: "default"
