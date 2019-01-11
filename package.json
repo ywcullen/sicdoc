@@ -1,0 +1,34 @@
+{
+  "author": "",
+  "bin": {
+    "sicdoc": "./index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/ywcullen/sicdoc/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.1",
+    "shelljs": "^0.8.3"
+  },
+  "deprecated": false,
+  "description": "",
+  "homepage": "https://github.com/ywcullen/sicdoc#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "sicdoc",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ywcullen/sicdoc.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "semantic-release": "semantic-release"
+  },
+  "version": "0.0.0-development",
+  "devDependencies": {
+    "semantic-release": "^15.13.3"
+  }
+}
