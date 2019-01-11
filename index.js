@@ -22,12 +22,13 @@ const askQuestions = () => {
     {
       name: "FILENAME",
       type: "input",
-      message: "What is the name of the file without extension?"
+      message:
+        "What is the name of the file without extension (just keep it simple)?"
     },
     {
       type: "list",
       name: "EXTENSION",
-      message: "What is the file extension sir?",
+      message: "What is the file extension sir/madam?",
       choices: [".rb", ".js", ".php", ".css", ".jsx"],
       filter: function(val) {
         return val.split(".")[1];
