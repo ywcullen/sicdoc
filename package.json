@@ -25,9 +25,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "semantic-release": "semantic-release --ci false --dry-run false"
+    "semantic-release": "semantic-release --ci false --dry-run false --generateNotes"
   },
-  "version": "1.0.5",
+  "version": "1.1.0",
   "devDependencies": {
     "semantic-release": "^15.13.3"
   }
